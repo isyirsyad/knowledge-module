@@ -1,0 +1,15 @@
+# Source documents — private, never committed
+input/*
+!input/.gitkeep
+
+# Generated deliverables — regenerable, never committed
+output/*
+!output/.gitkeep
+
+# Re-include .claude/ (skill + commands) in case a global gitignore excludes it
+!.claude/
+# ...but keep machine-local Claude Code settings out of git
+.claude/settings.local.json
+
+# OS / editor noise
+.DS_Store
