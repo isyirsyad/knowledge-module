@@ -39,18 +39,13 @@ for `roadmap`, `market-study`, `gap-analysis`, and `competitive-brief`. Replace
 or add scaffolds to match what your domain generates. `/knowledge-generate` also
 accepts free-form requests with no scaffold.
 
-## 4. Add a license
-
-No license ships enabled. An MIT template is in `LICENSE` — edit the copyright
-line, or replace it with the license you prefer, before publishing.
-
-## 5. Start using it
+## 4. Start using it
 
 1. Drop source documents into `input/` (pdf, docx, pptx, md).
 2. Run `/knowledge-ingest`.
 3. Ask questions in plain chat, or run `/knowledge-generate <deliverable>`.
 
-## 6. (Optional) Clean up
+## 5. (Optional) Clean up
 
 Once set up, you can delete this `SETUP.md` and the
 `.claude/commands/knowledge-init.md` command — they are only needed once.

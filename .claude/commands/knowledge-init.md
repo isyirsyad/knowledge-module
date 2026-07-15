@@ -30,9 +30,12 @@ Steps:
 4. **Next steps.** Remind the user they can optionally: (i) tune the taxonomy in
    `.claude/skills/knowledge-module/references/taxonomy.md` for their domain;
    (ii) adjust the scaffolds in
-   `.claude/skills/knowledge-module/references/scaffolds/`; (iii) fill in the
-   `LICENSE` (`{{YEAR}}` / `{{COPYRIGHT_HOLDER}}`) or choose another license; and
-   (iv) delete this `knowledge-init` command and `SETUP.md` once done. Then they
-   can drop documents into `input/` and run `/knowledge-ingest`.
+   `.claude/skills/knowledge-module/references/scaffolds/`; and (iii) delete this
+   `knowledge-init` command and `SETUP.md` once done. Then they can drop
+   documents into `input/` and run `/knowledge-ingest`.
+
+   Note: the `LICENSE` covers the boilerplate itself and already carries the
+   template author's MIT copyright — leave that notice intact (MIT requires it).
+   Do not personalize it.
 
 Do not commit automatically — show the user the summary and let them review.

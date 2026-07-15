@@ -44,11 +44,10 @@ that goes stale. This template takes a different shape:
    throughout the repo. (Manual alternative in [SETUP.md](SETUP.md).)
 3. *(Optional)* **Tune it to your domain** — edit the taxonomy and deliverable
    scaffolds (see [Customizing](#customizing)).
-4. **Add a license** — see [License](#license).
-5. **Ingest:** drop documents into `input/` and run `/knowledge-ingest`. Claude
+4. **Ingest:** drop documents into `input/` and run `/knowledge-ingest`. Claude
    synthesizes atomic facts into `knowledge/` and updates the index, source
    manifest, and human digest.
-6. **Use it:** ask questions in plain chat (answers cite their sources), or run
+5. **Use it:** ask questions in plain chat (answers cite their sources), or run
    `/knowledge-generate <deliverable>`.
 
 ## What's committed vs. ignored
@@ -104,9 +103,11 @@ Claude uses document-reading skills; plain Markdown needs nothing extra.
 
 ## License
 
-No license is set yet — **you should add one** before publishing. A permissive
-[MIT](LICENSE) template is included as a starting point; edit the copyright line
-or replace it with the license you prefer.
+[MIT](LICENSE) © 2026 Irsyad Saidin. The license covers the boilerplate itself
+(skill, commands, scaffolds, and structure). Knowledge you create in your own
+copy is your content and is not governed by this license — but per the MIT
+terms, keep the copyright notice in `LICENSE` intact when redistributing the
+template.
 
 ## Credits
 
